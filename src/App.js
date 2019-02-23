@@ -24,6 +24,7 @@ class App extends Component {
     this.setState({ currentPage, currentCountries, totalPages });
   }
 
+
   onPageChanged = data => {
    const { currentPage, totalPages, pageLimit } = data;
 
